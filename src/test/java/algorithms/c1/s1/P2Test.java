@@ -12,8 +12,8 @@ public class P2Test {
     public void a() {
         AbstractMap.SimpleImmutableEntry result = P2.a();
         assertAll(
-                () -> assertEquals(1, result.getKey()),
-                () -> assertEquals(Integer.class, result.getValue())
+                () -> assertEquals(1.618, result.getKey()),
+                () -> assertEquals(Double.class, result.getValue())
         );
     }
 
