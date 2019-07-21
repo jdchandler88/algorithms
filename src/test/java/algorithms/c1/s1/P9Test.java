@@ -1,35 +1,24 @@
 package algorithms.c1.s1;
 
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class P9Test {
 
-    @Test
-    void toBinaryStringZero() {
-        assertEquals("00000000000000000000000000000000", P9.toBinaryString(0));
+    @ParameterizedTest
+    @MethodSource("getIntegers")
+    public void toBinaryString(int in) {
+        assertEquals(Integer.toBinaryString(in), P9.toBinaryString(in));
     }
 
-    @Test
-    void toBinaryStringOne() {
-        assertEquals("00000000000000000000000000000001", P9.toBinaryString(1));
+    public static Stream<Arguments> getIntegers() {
+        return IntStream.range(-1000, 1000).mapToObj(i -> Arguments.of(i));
     }
-
-    @Test
-    void toBinaryStringTwo() {
-        assertEquals("00000000000000000000000000000010", P9.toBinaryString(2));
-    }
-
-    @Test
-    void toBinaryStringThree() {
-        assertEquals("00000000000000000000000000000011", P9.toBinaryString(3));
-    }
-
-    @Test
-    void toBinaryStringFour() {
-        assertEquals("00000000000000000000000000000100", P9.toBinaryString(4));
-    }
-
 
 }
