@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70814f1e-14ec-440c-bc57-bc283b6f6cda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/c1/s1/P15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/c1/s1/P15Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/c1/s1/P16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/c1/s1/P16Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -77,13 +77,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/algorithms/c1/s1/P15Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="210">
+              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/c1/s1/P16.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/algorithms/c1/s1/P16Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+              <folding>
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,10 +159,12 @@
         <option value="$PROJECT_DIR$/src/main/java/algorithms/c1/s1/P14.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithms/c1/s1/P15.java" />
         <option value="$PROJECT_DIR$/src/test/java/algorithms/c1/s1/P15Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/c1/s1/P16.java" />
+        <option value="$PROJECT_DIR$/src/test/java/algorithms/c1/s1/P16Test.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="995" />
     <option name="y" value="27" />
     <option name="width" value="925" />
@@ -273,23 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.P15Test.histogram">
-    <configuration name="P12Test.a" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithms.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.c1.s1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="algorithms.c1.s1" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.c1.s1.P12Test" />
-      <option name="METHOD_NAME" value="a" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.P16Test.exR1">
     <configuration name="P13Test.transpose" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms.test" />
       <extension name="coverage">
@@ -338,6 +346,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P16Test.exR1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.c1.s1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms.c1.s1" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.c1.s1.P16Test" />
+      <option name="METHOD_NAME" value="exR1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="[2] 5, 2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms.test" />
       <extension name="coverage">
@@ -359,11 +383,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.P16Test.exR1" />
         <item itemvalue="JUnit.P15Test.histogram" />
         <item itemvalue="JUnit.P14Test.lg" />
         <item itemvalue="JUnit.[2] 5, 2" />
         <item itemvalue="JUnit.P13Test.transpose" />
-        <item itemvalue="JUnit.P12Test.a" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +401,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563660198064</updated>
-      <workItem from="1563660200299" duration="22030000" />
+      <workItem from="1563660200299" duration="22764000" />
     </task>
     <task id="LOCAL-00001" summary="adding jenkinsfile">
       <created>1563661301913</created>
@@ -491,16 +515,17 @@
       <option name="project" value="LOCAL" />
       <updated>1563740314838</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="problem 15">
+      <created>1563741582664</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1563741582664</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="P13Test_transpose - 2019.07.21 at 12h 22m 28s.xml">
-      <configuration name="P13Test.transpose" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="P14Test_lg - 2019.07.21 at 15h 46m 47s.xml">
-      <configuration name="P14Test.lg" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="P14Test_lg - 2019.07.21 at 15h 51m 08s.xml">
       <configuration name="P14Test.lg" configurationId="JUnit" />
     </history-entry>
@@ -525,12 +550,18 @@
     <history-entry file="P15Test_histogram - 2019.07.21 at 16h 39m 05s.xml">
       <configuration name="P15Test.histogram" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="P15Test_histogram - 2019.07.21 at 16h 39m 29s.xml">
+      <configuration name="P15Test.histogram" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="P16Test_exR1 - 2019.07.21 at 17h 04m 27s.xml">
+      <configuration name="P16Test.exR1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22030000" />
+    <option name="totallyTimeSpent" value="22764000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="70" y="27" width="1850" height="1053" extended-state="6" />
+    <frame x="995" y="27" width="925" height="1053" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -538,7 +569,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18292683" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37542662" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.3293348" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" />
@@ -550,7 +581,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5408942" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5408942" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -563,7 +594,7 @@
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info active="true" anchor="right" id="Coverage" sideWeight="0.500813" side_tool="true" visible="true" weight="0.027161863" />
+      <window_info anchor="right" id="Coverage" sideWeight="0.500813" side_tool="true" visible="true" weight="0.055745166" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -587,7 +618,8 @@
     <MESSAGE value="problem 13" />
     <MESSAGE value="problem 14. not happy with the solution..." />
     <MESSAGE value="problem 14. not happy with the solution... not even sure i understand the question" />
-    <option name="LAST_COMMIT_MESSAGE" value="problem 14. not happy with the solution... not even sure i understand the question" />
+    <MESSAGE value="problem 15" />
+    <option name="LAST_COMMIT_MESSAGE" value="problem 15" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -928,10 +960,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/algorithms/c1/s1/P15Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="210">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/c1/s1/P16.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/algorithms/c1/s1/P16Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
           </folding>
         </state>
       </provider>
