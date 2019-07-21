@@ -2,6 +2,7 @@ package algorithms.c1.s1;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.stream.IntStream;
@@ -12,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class P9Test {
 
     @ParameterizedTest
-    @MethodSource("getIntegers")
+    @CsvSource(value = {"-123456", "-100", "0", "100", "123456"})
     public void toBinaryString(int in) {
         assertEquals(Integer.toBinaryString(in), P9.toBinaryString(in));
     }
