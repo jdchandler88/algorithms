@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70814f1e-14ec-440c-bc57-bc283b6f6cda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/c1/s1/P13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/c1/s1/P13Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/c1/s1/P14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/c1/s1/P14Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -69,36 +69,6 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/c1/s1/P8.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-              <folding>
-                <element signature="e#77#78#0" expanded="true" />
-                <element signature="e#110#111#0" expanded="true" />
-                <element signature="e#127#128#0" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/algorithms/c1/s1/P8Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-              <folding>
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#183#184#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/c1/s1/P9.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -150,7 +120,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/c1/s1/P13.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="130">
@@ -162,8 +132,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/algorithms/c1/s1/P13Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="115">
+              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/c1/s1/P14.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/algorithms/c1/s1/P14Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -226,10 +219,12 @@
         <option value="$PROJECT_DIR$/src/test/java/algorithms/c1/s1/P12Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/algorithms/c1/s1/P13Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/algorithms/c1/s1/P13.java" />
+        <option value="$PROJECT_DIR$/src/test/java/algorithms/c1/s1/P14Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/c1/s1/P14.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="995" />
     <option name="y" value="27" />
     <option name="width" value="925" />
@@ -362,7 +357,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.P13Test.transpose">
+  <component name="RunManager" selected="JUnit.P14Test.lg">
     <configuration name="P11Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms.test" />
       <extension name="coverage">
@@ -410,7 +405,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P9Test.toBinaryRandom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="P14Test.lg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms.test" />
       <extension name="coverage">
         <pattern>
@@ -419,14 +414,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="algorithms.c1.s1" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.c1.s1.P9Test" />
-      <option name="METHOD_NAME" value="toBinaryRandom" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.c1.s1.P14Test" />
+      <option name="METHOD_NAME" value="lg(int,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P9Test.toBinaryString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="[2] 5, 2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms.test" />
       <extension name="coverage">
         <pattern>
@@ -435,20 +430,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="algorithms.c1.s1" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.c1.s1.P9Test" />
-      <option name="METHOD_NAME" value="toBinaryString(int)" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.c1.s1.P14Test" />
+      <option name="METHOD_NAME" value="lg(int,int)" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:algorithms.c1.s1.P14Test]/[test-template:lg(int, int)]/[test-template-invocation:#2]" />
+      </uniqueIds>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.P14Test.lg" />
+        <item itemvalue="JUnit.[2] 5, 2" />
         <item itemvalue="JUnit.P13Test.transpose" />
         <item itemvalue="JUnit.P12Test.a" />
         <item itemvalue="JUnit.P11Test" />
-        <item itemvalue="JUnit.P9Test.toBinaryString" />
-        <item itemvalue="JUnit.P9Test.toBinaryRandom" />
       </list>
     </recent_temporary>
   </component>
@@ -462,7 +460,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563660198064</updated>
-      <workItem from="1563660200299" duration="15014000" />
+      <workItem from="1563660200299" duration="20884000" />
     </task>
     <task id="LOCAL-00001" summary="adding jenkinsfile">
       <created>1563661301913</created>
@@ -562,46 +560,53 @@
       <option name="project" value="LOCAL" />
       <updated>1563680736476</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="problem 13">
+      <created>1563726164411</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1563726164411</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="P9Test_toBinaryRandom - 2019.07.20 at 23h 09m 01s.xml">
-      <configuration name="P9Test.toBinaryRandom" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="P9Test_toBinaryRandom - 2019.07.20 at 23h 11m 08s.xml">
-      <configuration name="P9Test.toBinaryRandom" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="P9Test_toBinaryString - 2019.07.20 at 23h 15m 10s.xml">
-      <configuration name="P9Test.toBinaryString" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="P9Test_toBinaryString - 2019.07.20 at 23h 18m 40s.xml">
-      <configuration name="P9Test.toBinaryString" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="P9Test_toBinaryString - 2019.07.20 at 23h 20m 42s.xml">
-      <configuration name="P9Test.toBinaryString" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="P9Test_toBinaryString - 2019.07.20 at 23h 24m 31s.xml">
-      <configuration name="P9Test.toBinaryString" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="P11Test - 2019.07.20 at 23h 38m 33s.xml">
-      <configuration name="P11Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="P12Test_a - 2019.07.20 at 23h 44m 31s.xml">
-      <configuration name="P12Test.a" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="P12Test_a - 2019.07.20 at 23h 45m 27s.xml">
       <configuration name="P12Test.a" configurationId="JUnit" />
     </history-entry>
     <history-entry file="P13Test_transpose - 2019.07.21 at 12h 21m 38s.xml">
       <configuration name="P13Test.transpose" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="P13Test_transpose - 2019.07.21 at 12h 22m 28s.xml">
+      <configuration name="P13Test.transpose" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="P14Test_lg - 2019.07.21 at 15h 46m 47s.xml">
+      <configuration name="P14Test.lg" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="P14Test_lg - 2019.07.21 at 15h 51m 08s.xml">
+      <configuration name="P14Test.lg" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="P14Test_lg - 2019.07.21 at 15h 59m 09s.xml">
+      <configuration name="P14Test.lg" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="P14Test_lg - 2019.07.21 at 16h 04m 55s.xml">
+      <configuration name="P14Test.lg" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="P14Test_lg - 2019.07.21 at 16h 05m 11s.xml">
+      <configuration name="P14Test.lg" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="P14Test_lg - 2019.07.21 at 16h 16m 29s.xml">
+      <configuration name="P14Test.lg" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="P14Test_lg - 2019.07.21 at 16h 16m 32s.xml">
+      <configuration name="P14Test.lg" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15014000" />
+    <option name="totallyTimeSpent" value="20884000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="995" y="27" width="925" height="1053" extended-state="4" />
+    <frame x="70" y="27" width="1850" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -609,7 +614,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37542662" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18292683" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.3293348" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" />
@@ -621,8 +626,8 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5408942" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5408942" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991276" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -634,7 +639,7 @@
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Coverage" sideWeight="0.500813" side_tool="true" visible="true" weight="0.055745166" />
+      <window_info anchor="right" id="Coverage" sideWeight="0.500813" side_tool="true" visible="true" weight="0.027161863" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -655,7 +660,8 @@
     <MESSAGE value="problem 9 and sol'n; cutting down number of tests. that was a lot" />
     <MESSAGE value="problem 11" />
     <MESSAGE value="problem 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="problem 12" />
+    <MESSAGE value="problem 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="problem 13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -665,6 +671,12 @@
           <line>9</line>
           <properties />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/c1/s1/P14.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -689,6 +701,9 @@
       <FILTER>algorithms.c1.s1.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/algorithms$P3Test_testEquals.ic" NAME="P3Test.testEquals Coverage Results" MODIFIED="1563663559672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>algorithms.c1.s1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/algorithms$P14Test_lg.ic" NAME="P14Test.lg Coverage Results" MODIFIED="1563740248770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>algorithms.c1.s1.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/algorithms$P4Test.ic" NAME="P4Test Coverage Results" MODIFIED="1563668205304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -942,17 +957,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/algorithms/c1/s1/P13Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/c1/s1/P13.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/algorithms/c1/s1/P13Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/algorithms/c1/s1/P14Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/c1/s1/P14.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
