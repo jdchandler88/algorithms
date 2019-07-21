@@ -22,7 +22,7 @@ public class P9 {
         // java's tobinarystring cuts off leading 0s
         String normalizeToIntegerToBinaryString = sb.toString().replaceFirst("^0+", "");
         // the logic above creates an empty string if the input number is 0. correct for this case
-        if (normalizeToIntegerToBinaryString.isBlank()) normalizeToIntegerToBinaryString = "0";
+        if (normalizeToIntegerToBinaryString.isEmpty()) normalizeToIntegerToBinaryString = "0";
         return normalizeToIntegerToBinaryString;
 
     }
