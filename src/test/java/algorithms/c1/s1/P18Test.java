@@ -20,8 +20,8 @@ public class P18Test {
     public void testMystery2() {
         //not sure what this is calculating...
         assertAll(
-                () -> assertEquals(50, P18.mystery2(2, 25)),
-                () -> assertEquals(33, P18.mystery2(3, 11))
+                () -> assertEquals(96, P18.mystery2(2, 25)),
+                () -> assertEquals(135, P18.mystery2(3, 11))
         );
     }
 
